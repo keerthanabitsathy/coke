@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		coco
+	</title>
+</head>
+<body>
+	<section class="container">
+		<img src="coco.png">
+		<h1>CocoCola</h1>
+		<p> Coke, is a carbonated soft drink manufactured by the Coca-Cola Company. Originally marketed as a temperance drink and intended as a patent medicine, it was invented in the late 19th century by John Stith Pemberton in Atlanta, Georgia. In 1888 Pemberton sold Coca-Cola's ownership rights to Asa Griggs Candler, a businessman, whose marketing tactics led Coca-Cola to its dominance of the global soft-drink market throughout the 20th and 21st century.[1] The drink's name refers to two of its original ingredients: coca leaves, and kola nuts (a source of caffeine). The current formula of Coca-Cola remains a closely guarded trade secret; however, a variety of reported recipes and experimental recreations have been published. The secrecy around the formula has been used by Coca-Cola in its marketing as only a handful of anonymous employees know the formula.[2] The drink has inspired imitators and created a whole classification of soft drink: colas.</p>
+
+		
+	</section>
+	<section class="container">
+		<img src="sprite.png">
+		<h1>CocoCola</h1>
+		<p> Coke, is a carbonated soft drink manufactured by the Coca-Cola Company. Originally marketed as a temperance drink and intended as a patent medicine, it was invented in the late 19th century by John Stith Pemberton in Atlanta, Georgia. In 1888 Pemberton sold Coca-Cola's ownership rights to Asa Griggs Candler, a businessman, whose marketing tactics led Coca-Cola to its dominance of the global soft-drink market throughout the 20th and 21st century.[1] The drink's name refers to two of its original ingredients: coca leaves, and kola nuts (a source of caffeine). The current formula of Coca-Cola remains a closely guarded trade secret; however, a variety of reported recipes and experimental recreations have been published. The secrecy around the formula has been used by Coca-Cola in its marketing as only a handful of anonymous employees know the formula.[2] The drink has inspired imitators and created a whole classification of soft drink: colas.</p>
+		
+		
+	</section>
+	<section class="container">
+		<img src="sprite.png">
+		<h1>CocoCola</h1>
+		<p> Coke, is a carbonated soft drink manufactured by the Coca-Cola Company. Originally marketed as a temperance drink and intended as a patent medicine, it was invented in the late 19th century by John Stith Pemberton in Atlanta, Georgia. In 1888 Pemberton sold Coca-Cola's ownership rights to Asa Griggs Candler, a businessman, whose marketing tactics led Coca-Cola to its dominance of the global soft-drink market throughout the 20th and 21st century.[1] The drink's name refers to two of its original ingredients: coca leaves, and kola nuts (a source of caffeine). The current formula of Coca-Cola remains a closely guarded trade secret; however, a variety of reported recipes and experimental recreations have been published. The secrecy around the formula has been used by Coca-Cola in its marketing as only a handful of anonymous employees know the formula.[2] The drink has inspired imitators and created a whole classification of soft drink: colas.</p>
+		
+		
+	</section>
+	<section class="container">
+		<img src="sprite.png">
+		<h1>CocoCola</h1>
+		<p> Coke, is a carbonated soft drink manufactured by the Coca-Cola Company. Originally marketed as a temperance drink and intended as a patent medicine, it was invented in the late 19th century by John Stith Pemberton in Atlanta, Georgia. In 1888 Pemberton sold Coca-Cola's ownership rights to Asa Griggs Candler, a businessman, whose marketing tactics led Coca-Cola to its dominance of the global soft-drink market throughout the 20th and 21st century.[1] The drink's name refers to two of its original ingredients: coca leaves, and kola nuts (a source of caffeine). The current formula of Coca-Cola remains a closely guarded trade secret; however, a variety of reported recipes and experimental recreations have been published. The secrecy around the formula has been used by Coca-Cola in its marketing as only a handful of anonymous employees know the formula.[2] The drink has inspired imitators and created a whole classification of soft drink: colas.</p>
+		
+		
+	</section>
+	<section class="container">
+		<img src="sprite.png">
+		<h1>CocoCola</h1>
+		<p> Coke, is a carbonated soft drink manufactured by the Coca-Cola Company. Originally marketed as a temperance drink and intended as a patent medicine, it was invented in the late 19th century by John Stith Pemberton in Atlanta, Georgia. In 1888 Pemberton sold Coca-Cola's ownership rights to Asa Griggs Candler, a businessman, whose marketing tactics led Coca-Cola to its dominance of the global soft-drink market throughout the 20th and 21st century.[1] The drink's name refers to two of its original ingredients: coca leaves, and kola nuts (a source of caffeine). The current formula of Coca-Cola remains a closely guarded trade secret; however, a variety of reported recipes and experimental recreations have been published. The secrecy around the formula has been used by Coca-Cola in its marketing as only a handful of anonymous employees know the formula.[2] The drink has inspired imitators and created a whole classification of soft drink: colas.</p>
+		
+		
+	</section>
+
+</body>
+<style>
+	
+	body
+	{
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 40px;
+		align-items: center;
+		min-height: 100vh;
+		background: black;
+	}
+	.container
+	{
+		background: red;
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		transition: 1s;
+		display: flex;
+		align-items: center;
+
+	}
+	.container:nth-child(2)
+	{
+		background: green;
+	}
+	.container:hover
+	{
+		width: 70%;
+		height: 500px;
+		border-radius: 20px;
+		
+	}
+	.container img
+	{
+		left: -100px;
+		position: relative;
+		width: 650px;
+		height: 650px;
+		transform: scale(0);
+		transition: 0.5s;
+		transition-delay: 0s;
+		lighting-color: darkred;
+
+	}
+	.container h1
+	{
+		position: absolute;
+		color: #fff;
+		font-size: 80px;
+		margin-left: 2%;
+		margin-top: -300px;
+		transform: scale(0);
+		transition: 3s;
+	}
+	.container p{
+		position: absolute;
+		color: #fff;
+
+		margin-left: 2%;
+		transform: scale(0);
+		transition: 2s;
+	}
+	.container:hover p
+	{
+		transform: scale(1);
+		width: 500px;
+
+
+	}
+	.container:hover h1
+	{
+		transform: scale(1);
+		transition-delay: 1s;
+	}
+	.container:hover img
+	{
+		margin-left: 500px;
+		transform: scale(1);
+		transition-delay: 0.5s;
+	}
+</style>
+</html>
